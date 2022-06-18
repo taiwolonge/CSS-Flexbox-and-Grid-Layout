@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.content {
+  display: flex;
+  width: 100%;
+  font-family: lexend deca;
+  font-size: 15px;
+  color: white;
+}
+h3 {
+  font-family: big shoulders display;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+p {
+  font-weight: 200;
+  margin-bottom: 5em;
+}
+.left-content {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+}
+.left-content .btn {
+  color: hsl(31, 77%, 52%);
+}
+.middle-content {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+}
+.middle-content .btn {
+  color: hsl(184, 100%, 22%);
+}
+.right-content {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+}
+.right-content .btn {
+  color: hsl(179, 100%, 13%);
+}
+.btn {
+  padding: 1em;
+  width: 8em;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 3em;
+  font-family: lexend deca;
+}
